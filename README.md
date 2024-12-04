@@ -12,6 +12,7 @@
   - Uygulama 3: Lorem ve biçimlendirme etiketleri kullanımı
   - Quiz2 : Etiketler ve Tablo Kullanımı
   - Uygulama 4: Resimli Tablo Yapımı
+  - 041224:CSS kullanımı
     
 </details>
  

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Uygulamaları</title>
+</head>
+<body>
+    <h1>select ve fieldset kullanımı</h1>
+
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+        <fieldset>
+            <legend><b>Kişisel Bilgiler</b></legend>
+            <label for="isim">İsim</label><br>
+            <input type="text" name="isim" id="isim" placeholder="Ad"><br><br>
+            <label for="s_isim">Soyisim</label><br>
+            <input type="text" name="s_isim" id="s_isim" placeholder="Soyad"><br><br>
+            <input type="radio" name="cinsiyet" id="kiz">
+            <label for="kiz">Kız</label>
+            <input type="radio" name="cinsiyet" id="erkek">
+            <label for="erkek">Erkek</label><br><br>
+            <label for="tarih">Doğum tarih</label>
+            <input type="date" name="tarih" id="tarih" value="2024-01-01">
+        </fieldset>
+        <fieldset>
+            <legend><b>Eğitim Bilgileri</b></legend>
+            <label for="okul">Okul</label><br>
+            <input type="text" id="okul" name=""okul><br><br>
+
+            <label for="sinif">Sınıf</label><br>
+            <input type="text" id="sinif" name="sinif"><br><br>
+
+            <label for="bolum">Bölümünüz</label><br>
+            <select name="bolum" id="bolum">
+                <option value="1">Bilişim Teknolojileri</option>
+                <option value="2">Grafik Ve Tasarım</option>
+                <option value="3">Çocuk Gelişim</option>
+                <option value="4">Moda Tasarım</option>
+            </select><br><br>
+            <button type="submit">Kaydet</button>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Ek Bilgiler</b></legend>
+            <textarea name="not" id="noy" cols="50" rows="5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor asperiores neque expedita exercitationem obcaecati hic eos commodi culpa, vel inventore dolorem numquam repudiandae repellendus velit sint possimus, consequatur, eaque earum.
+            Minima nam modi illo, officiis enim ullam beatae, porro eaque doloribus fugit eum nisi, velit praesentium at suscipit aut asperiores iusto hic magni accusantium eligendi ratione neque? Aut, et vero.
+            Voluptate corrupti nihil sint optio consectetur maxime dicta est temporibus nostrum. Quas totam iste commodi quia fugiat autem nulla? Perspiciatis nulla distinctio architecto eveniet, optio cumque voluptatibus et? Nam, minima!
+            Cupiditate, accusantium delectus repellendus aspernatur perferendis error .</textarea>
+            <br>
+            <input type="checkbox" name="kabul" id="kabul">
+            <label for="kabul">Bilgileri Kabul Et</label>
+            <input type="checkbox" name="cerez" id="cerez">
+            <label for="cerez">Çerezleri Kabul Et</label>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>

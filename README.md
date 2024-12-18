@@ -55,5 +55,12 @@
   <summary>041224</summary>
   
   - VİDEO ÖDEV
+</details>
+<details>
+
+ <summary>181224</summary>
+  
+  - SITE CALİSMASİ
+
    
 </details>
